@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\begin{center}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline
+	dataset & algorithm & mean & std. dev. & best & worst & RE(\%)\\
+	\hline
+	\multirow{4}{*}{ch150}		& DTSA & 6688.03 & 85.32 & 6549 & \textbf{6922} & 2.45\\
+		& GTSPA-SM & 6683.87 & 88.31 & 6549 & 6898 & 2.39\\
+		& GTSPA-MS & 6665.89 & 86.8 & 6552 & 6913 & 2.11\\
+		& GTSPA-SMS & \textbf{6661.59} & 77.5 & \textbf{6544} & 6839 & 2.05\\
+	\hline
+	\multirow{4}{*}{tsp225}		& DTSA & 4132.73 & 64.11 & 3995 & \textbf{4365} & 5.45\\
+		& GTSPA-SM & \textbf{4121.48} & 57.02 & \textbf{3987} & 4307 & 5.17\\
+		& GTSPA-MS & 4188.68 & 55.87 & 4038 & 4350 & 6.88\\
+		& GTSPA-SMS & 4156.21 & 54.31 & 4039 & 4330 & 6.05\\
+	\hline
+\end{tabular}}
+\label{table:algo-stats}
+\end{center}
+\end{table}

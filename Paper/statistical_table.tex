@@ -1,0 +1,41 @@
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline
+	dataset & algorithm & mean & std. dev. & best & worst & RE(\%)\\
+	\hline
+	\multirow{4}{*}{berlin52}		& DTSA & 7868.18 & 185.5 & \textbf{7542} & \textbf{8405} & 4.32\\
+		& GTSPA-SM & 7867.68 & 193.33 & \textbf{7542} & 8301 & 4.32\\
+		& GTSPA-MS & \textbf{7790.32} & 175.78 & \textbf{7542} & 8263 & 3.29\\
+		& GTSPA-SMS & 7798.98 & 192.88 & \textbf{7542} & 8281 & 3.41\\
+	\hline
+	\multirow{4}{*}{st70}		& DTSA & 700.57 & 16.09 & 683 & 738 & 3.79\\
+		& GTSPA-SM & 698.26 & 15.3 & \textbf{680} & \textbf{747} & 3.45\\
+		& GTSPA-MS & \textbf{695.41} & 13.09 & 682 & 737 & 3.02\\
+		& GTSPA-SMS & 695.47 & 12.2 & 682 & 741 & 3.03\\
+	\hline
+	\multirow{4}{*}{kroA100}		& DTSA & 21831.69 & 382.83 & \textbf{21282} & 23009 & 2.58\\
+		& GTSPA-SM & 21754.38 & 355.07 & \textbf{21282}& 23136 & 2.22\\
+		& GTSPA-MS & \textbf{21588.57} & 348.82 & \textbf{21282} & 23096 & 1.44\\
+		& GTSPA-SMS & 21719.31 & 351.1 & \textbf{21282} & \textbf{23224} & 2.05\\
+	\hline
+	\multirow{4}{*}{eil101}		& DTSA & 647.76 & 8.45 & \textbf{629} & \textbf{671} & 2.98\\
+		& GTSPA-SM & 648.99 & 8.66 & 630 & \textbf{671} & 3.18\\
+		& GTSPA-MS & \textbf{645.92} & 7.22 & 631 & 665 & 2.69\\
+		& GTSPA-SMS & 646.9 & 8.26 & 630 & 669 & 2.85\\
+	\hline
+	\multirow{4}{*}{ch150}		& DTSA & 6688.03 & 85.32 & 6549 & \textbf{6922} & 2.45\\
+		& GTSPA-SM & 6683.87 & 88.31 & 6549 & 6898 & 2.39\\
+		& GTSPA-MS & 6665.89 & 86.8 & 6552 & 6913 & 2.11\\
+		& GTSPA-SMS & \textbf{6661.59} & 77.5 & \textbf{6544} & 6839 & 2.05\\
+	\hline
+	\multirow{4}{*}{tsp225}		& DTSA & 4132.73 & 64.11 & 3995 & \textbf{4365} & 5.45\\
+		& GTSPA-SM & \textbf{4121.48} & 57.02 & \textbf{3987} & 4307 & 5.17\\
+		& GTSPA-MS & 4188.68 & 55.87 & 4038 & 4350 & 6.88\\
+		& GTSPA-SMS & 4156.21 & 54.31 & 4039 & 4330 & 6.05\\
+	\hline
+\end{tabular}
+\caption{Statistical evaluation of the different algorithms for the six problems. The best results for the columns \textit{mean} and \textit{best} are bold. Also the worst results in the column \textit{worst} are bold.}
+\label{table:algo-stats}
+\end{center}
+\end{table}

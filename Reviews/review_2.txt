@@ -1,0 +1,29 @@
+Review for topic "[47] Discrete tree-seed algorithm for solving symmetric travelling salesman problem":
+Paper Title: Discrete Tree-seed Algorithm for Solving Symmetric Travelling Salesman Problem 
+Paper Author: Felix Beese, Jens Lohmann
+
+A. Summary of the paper:
+Overall the paper is well-structured and the aim of the paper is clearly seen. The implementation has been done and described well. However, in my opinion, more explanations of the figures would be good.
+
+B. Strengths of the paper:
+The implementation part of the paper is done and the results are provided. The writing style is good, citations are taken into account. As well as the problem is clearly defined.
+
+C. Weaknesses of the paper:
+It is not explained if the convergence of the algorithm and its ability to find optimal path correlate. As in figure 2, it is clearly seen that GTSPA-MS is converging the fastest at the end, however, GTSPA-SMS had the best path for the tsp225 problem.
+
+D. Short evaluations
+
+D1. Coverage of the Field: The topic is well covered
+
+D2. Depth of the topic: The topic itself is very interesting, but the paper is missing why do these anomalies in the data appear.
+
+D3. Structure: Well-structured paper
+
+D4. Quality of presentation / Clarity: Good.
+
+D5. Quality of the language: The language is understandable. Few grammar and spelling mistakes were noticed.
+
+D6. Critical elaboration of the topic: Critical analysis is written well.
+
+E. Detailed comments to the author:
+The topic is very interesting, and I liked the writing style. I think the little description of the 2-opt algorithm at the begging would be nice.

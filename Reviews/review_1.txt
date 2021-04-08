@@ -1,0 +1,52 @@
+Review for topic "[47] Discrete tree-seed algorithm for solving symmetric travelling salesman problem":
+Paper Title: Discrete Tree-seed Algorithm for Solving Symmetric Travelling Salesman Problem
+Paper Author: Felix Beese, Jens Lohmann
+
+A. Summary of the paper:
+Design and comparision of a Dicrete Tree-Seed Algorithm and a Genetic Algorithm to approximate the Symmetric Traveling Salesman Problem. Evaluation on tree datasets of different size. The DTSA was found to have a shorter runtime but on average worse final solutions.
+
+B. Strengths of the paper:
+- Very good evaluation
+- Good introduction to (S)-TSP
+- Good and interesting figures (sometimes maybe a little small)
+
+C. Weaknesses of the paper:
+- Pseudo code being hard to read (lines not enumerated, too much whitespace between lines)
+- Missing Conclusion
+
+D. Short evaluations
+
+D1. Coverage of the Field:
+- The paper sticks closely to its topic
+- Maybe mention other use cases for genetic algorithms etc.
+
+D2. Depth of the topic:
+- Good. Ideas on inner workings of the two approaches were described in detail
+
+D3. Structure:
+- table of contents might not be necessary for a rather short paper
+- Chapter 1 should be split in an Introduction and a Related Work chapter
+- Conclusion is missing / mixed with Discussion
+- The number of subchapters could maybe be slightly reduced
+
+D4. Quality of presentation / Clarity:
+- algorithms should not be written in an itemize environment (try lstlisting)
+- "dataset" might not be the correct name for the three "problem instances"
+- axis description in figure 2 missing (also maybe use different unit to get rid of some zeros)
+
+D5. Quality of the language:
+- Generally good
+- Some missing words (like in 1.1: "amount <of> time")
+- 4.1 first line "findes"
+- chapter 4.3 incorrect apostrophe
+
+D6. Critical elaboration of the topic:
+- Good. A little more details in 4.3 might be helpful (explanation of figure 4)
+
+E. Detailed comments to the author:
+- 1.2 "nearest neighbour tour" should be defined in the text
+- more details on the "2-opt algorithm" needed
+- 4.1: Would running the algorithms for more iterations achieve the same result as running it multiple times? This could be examined as part of the evaluation
+- Orange boxes on page 10 seem out of place
+- try to find some more references
+- Maybe give some potential use cases of TSP in the introduction as motivation
