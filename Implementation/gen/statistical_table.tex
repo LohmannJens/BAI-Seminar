@@ -1,0 +1,41 @@
+\begin{table}[ht]
+\caption{Statistical evaluation of the differrent algorithms for the six problems}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline
+	dataset & algorithm & mean & std. dev. & best & worst & RE(\%)\\
+	\hline
+	\multirow{4}{*}{berlin52}		& dtsa & 7868.18 & 185.5 & 7542 & 8405 & 4.32\\
+		& gtspasm & 7867.68 & 193.33 & 7542 & 8301 & 4.32\\
+		& gtspams & 7790.32 & 175.78 & 7542 & 8263 & 3.29\\
+		& gtspasms & 7798.98 & 192.88 & 7542 & 8281 & 3.41\\
+	\hline
+	\multirow{4}{*}{st70}		& dtsa & 700.57 & 16.09 & 683 & 738 & 3.79\\
+		& gtspasm & 698.26 & 15.3 & 680 & 747 & 3.45\\
+		& gtspams & 695.41 & 13.09 & 682 & 737 & 3.02\\
+		& gtspasms & 695.47 & 12.2 & 682 & 741 & 3.03\\
+	\hline
+	\multirow{4}{*}{kroA100}		& dtsa & 21831.69 & 382.83 & 21282 & 23009 & 2.58\\
+		& gtspasm & 21754.38 & 355.07 & 21282 & 23136 & 2.22\\
+		& gtspams & 21588.57 & 348.82 & 21282 & 23096 & 1.44\\
+		& gtspasms & 21719.31 & 351.1 & 21282 & 23224 & 2.05\\
+	\hline
+	\multirow{4}{*}{eil101}		& dtsa & 647.76 & 8.45 & 629 & 671 & 2.98\\
+		& gtspasm & 648.99 & 8.66 & 630 & 671 & 3.18\\
+		& gtspams & 645.92 & 7.22 & 631 & 665 & 2.69\\
+		& gtspasms & 646.9 & 8.26 & 630 & 669 & 2.85\\
+	\hline
+	\multirow{4}{*}{ch150}		& dtsa & 6688.03 & 85.32 & 6549 & 6922 & 2.45\\
+		& gtspasm & 6683.87 & 88.31 & 6549 & 6898 & 2.39\\
+		& gtspams & 6665.89 & 86.8 & 6552 & 6913 & 2.11\\
+		& gtspasms & 6661.59 & 77.5 & 6544 & 6839 & 2.05\\
+	\hline
+	\multirow{4}{*}{tsp225}		& dtsa & 4132.73 & 64.11 & 3995 & 4365 & 5.45\\
+		& gtspasm & 4121.48 & 57.02 & 3987 & 4307 & 5.17\\
+		& gtspams & 4188.68 & 55.87 & 4038 & 4350 & 6.88\\
+		& gtspasms & 4156.21 & 54.31 & 4039 & 4330 & 6.05\\
+	\hline
+\end{tabular}
+\end{center}
+\label{tab:statistical_evaluation}
+\end{table}

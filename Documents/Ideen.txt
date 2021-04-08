@@ -1,0 +1,51 @@
+# Ziele der Seminararbeit #
+###########################
+
+1.) Vorgestellten DTSA implementieren
+	-Programmiersprache: Python (wenn nichts dagegen spricht)
+	-Anzahl der Datenpunkte für das TSP? (ggf welche aus dem Paper, mit kleineren starten)
+	-Startparameter?
+		- D (Anzahl Städte),
+		- N (Anzahl Bäume),
+		- ST (Search Tendency),
+		- maxfs (maximum function evaluation)
+
+2.) Ähnlichen genetischen Algorithmus designen mit 2-opt Algorithmus
+	-Wie soll dieser aufgebaut sein?
+	-Anzahl der Sequenzen als Ausgang einer Generation (parent)?
+	-Anzahl Kinder, die pro Generation entstehen?
+	-Wie viel Prozent kommen in die nächste Generation?
+	-Mögliche Operationen:
+		-Mutation (Austausch zweier Knoten)
+	-Abbruchkriterium?
+
+3.) Beide Algorithmen vergleichen
+	-Anhand welcher Parameter?
+		-Ergebnis
+			-n Durchläufe, dann Mittelwert, Standard Abweichung, ggf t-Test
+		-Laufzeit
+			-Eher zweitrangig, ggf Theoretische Betrachtung als Extra Abschnitt im Paper
+	-Plots ausgeben lassen
+		-Fehler über die Schritte der Optimierung
+		-Ergebnis der beiden Algorithmen nach Abschluss (Datenpunkte und berechnete kürzeste Verbindung zwischen ihnen)
+
+Fragen aus der Beschreibung des Themas für die Seminararbeit:
+-Ist der DTSA nur ein genetische Algorithmus "in Verkleidung"?
+-Gründe für die Limitation auf das symmetrische TSP nennen
+
+# Fragen #
+##########
+
+-Unterschiede in den Terminfristen bei einer Implementierung?
+	-Was soll bis Paper Outline/Paper Draft jeweils stehen? (Keine Unterschiede, Implementierung am Besten bis Weihnachten fast fertig, währenddessen schreiben)
+-Sprache der Ausarbeitung?
+	-Englisch
+-Zum Algorithmus:
+	- Tree und Seed sind graphentheoretischer Bäume
+	- Update von current tree durch bestseed in-place oder erst nach for-Schleife? (in-place vermutlich performanter)
+-Verwendung von bibliotheken/packages
+	- Welche sind zu empfehlen? (TSP lib)
+
+
+
+Vorlesung vom Autor(Diskrete Optimierung)
